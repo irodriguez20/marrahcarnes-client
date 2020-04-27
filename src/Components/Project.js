@@ -29,7 +29,7 @@ class Project extends Component {
                     <Typography variant='body1'>{projectDescription}</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size='small' color='secondary'>Delete</Button>
+                    <Button variant='contained' size='small' color='secondary'>Delete</Button>
                 </CardActions>
             </Card>
         )
